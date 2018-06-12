@@ -33,7 +33,7 @@ Consider the following expansion:
 
 ```
     solve("3(ab)") = "ababab" -- "ab" repeats 3 times
-    solve("2(a3(b))" = "abbbabbb" -- "a3(b)" == "abbb" repeats twice.
+    solve("2(a3(b))") = "abbbabbb" -- "a3(b)" == "abbb" repeats twice.
 ```
 
 Given a string, return the expansion of that string.
